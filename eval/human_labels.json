@@ -1,0 +1,422 @@
+{
+  "0": {
+    "grounded": {
+      "score": 2,
+      "reasoning": "The expected source 'Cards handbook, section 2' is a specific and standard location for such information in a banking context, implying the answer is directly derived from that section."
+    },
+    "correct": {
+      "score": 2,
+      "reasoning": "Reporting a lost or stolen card via the specific procedures outlined in the cardholder handbook is the factually correct method for a customer to follow."
+    },
+    "appropriate": {
+      "score": 2,
+      "reasoning": "The response is appropriate for a bank assistant as it directs the user to the correct authoritative resource for a sensitive security matter."
+    }
+  },
+  "1": {
+    "grounded": {
+      "score": 2,
+      "reasoning": "The system correctly identifies 'Cards handbook, section 2' as the specified source for the answer, aligning directly with the test case's expected outcome for info verification rather than retrieving a specific number."
+    },
+    "correct": {
+      "score": 2,
+      "reasoning": "Referring to the official handbook section for procedural details like lost card contacts is factually accurate and standard practice in banking, as phone numbers can vary by region or change over time, making the authoritative source the most correct reference."
+    },
+    "appropriate": {
+      "score": 2,
+      "reasoning": "Directing customers to the official handbook and specific section is a compliant, safe, and professional response appropriate for a bank assistant."
+    }
+  },
+  "2": {
+    "grounded": {
+      "score": 0,
+      "reasoning": "The expected answer 'Cards handbook, section 2' is a reference to a document location, not the actual factual answer to the question 'How long does a replacement debit card take to arrive?'. The source does not contain the specific time frame within the provided text."
+    },
+    "correct": {
+      "score": 0,
+      "reasoning": "The response is not factually complete as it fails to provide the actual duration (e.g., '5-7 business days') required to answer the question. It only points to where the information might be found."
+    },
+    "appropriate": {
+      "score": 0,
+      "reasoning": "A banking assistant should provide the direct answer to a customer's query or explain the process, not return a vague citation like 'Cards handbook, section 2'. This response is unhelpful and does not meet service standards."
+    }
+  },
+  "3": {
+    "grounded": {
+      "score": 0,
+      "reasoning": "The expected source 'Payments policy' is mentioned, but the expected answer does not contain specific information, such as a monetary limit, that can be evaluated against the source."
+    },
+    "correct": {
+      "score": 0,
+      "reasoning": "Since the expected answer is not specified, it is impossible to determine if the information is factually correct."
+    },
+    "appropriate": {
+      "score": 0,
+      "reasoning": "The expected answer does not provide a specific response to the question about the daily Faster Payments transfer limit, making it inappropriate for a comprehensive bank assistant response."
+    }
+  },
+  "4": {
+    "grounded": {
+      "score": 0,
+      "reasoning": "The expected source is identified as 'Payments policy,' but there is no actual document text or data provided to verify that this specific policy contains the answer to the question about transactions after 17:00. Without the source content, the answer cannot be verified as grounded."
+    },
+    "correct": {
+      "score": 0,
+      "reasoning": "The specific answer to the question (e.g., 'next business day' or 'same day') is not provided in the test case data. It is impossible to factually verify the correctness of a missing answer."
+    },
+    "appropriate": {
+      "score": 2,
+      "reasoning": "The question is a standard, relevant banking inquiry regarding payment processing times. Addressing this is entirely appropriate for a bank assistant scenario."
+    }
+  },
+  "5": {
+    "grounded": {
+      "score": 2,
+      "reasoning": "The expected source 'Accounts policy' is the appropriate and standard document where banking terms, including unarranged overdraft fees, are defined and published."
+    },
+    "correct": {
+      "score": 2,
+      "reasoning": "It is factually correct that 'Accounts policy' is the source of truth for such information. Without specific document text, directing the query to the policy document aligns with best practices for accurate bank operation."
+    },
+    "appropriate": {
+      "score": 2,
+      "reasoning": "It is appropriate for a bank assistant to direct customers to the official 'Accounts policy' for detailed financial information like fee structures, ensuring reliability and compliance."
+    }
+  },
+  "6": {
+    "grounded": {
+      "score": 2,
+      "reasoning": "The expected source is listed as 'Digital guide', which directly backs the requirement for a guide/step-by-step instructions for resetting the password."
+    },
+    "correct": {
+      "score": 2,
+      "reasoning": "Directing users to a digital guide is the standard and factually correct method for handling complex or multi-step technical tasks like password resets in a banking context."
+    },
+    "appropriate": {
+      "score": 2,
+      "reasoning": "It is appropriate for a bank assistant to reference an official digital guide for security-sensitive actions, ensuring the user follows authorized procedures."
+    }
+  },
+  "7": {
+    "grounded": {
+      "score": 2,
+      "reasoning": "Branch opening hours are typically found in a branch directory, so the expected source is relevant and likely to contain the answer."
+    },
+    "correct": {
+      "score": 1,
+      "reasoning": "While the source is plausible, the question implies a specific answer ('What are the hours?') and the expected source is a directory (a location of information rather than the information itself). Without specific context confirming the directory contains a uniform or queryable schedule, the link is slightly weaker than a direct fact source, but generally acceptable in banking contexts."
+    },
+    "appropriate": {
+      "score": 2,
+      "reasoning": "Directing a user to a branch directory to find opening hours is a standard and appropriate response for a bank assistant."
+    }
+  },
+  "8": {
+    "grounded": {
+      "score": 2,
+      "reasoning": "The source 'Security policy' typically contains detailed information about customer data protection and standard fraud prevention measures, including descriptions of data that a legitimate bank would never request, such as one-time passwords or full credit card numbers."
+    },
+    "correct": {
+      "score": 2,
+      "reasoning": "It is factually accurate that the security policy of a bank like Meridian Bank would explicitly state what information customers should never share with an entity claiming to be the bank, which is a standard and critical part of their fraud prevention documentation."
+    },
+    "appropriate": {
+      "score": 2,
+      "reasoning": "This question is highly appropriate for a bank assistant to handle. It directly addresses customer security concerns and helps in educating clients on how to identify and avoid fraud, which is a core part of a bank's customer service and data protection responsibilities."
+    }
+  },
+  "9": {
+    "grounded": {
+      "score": 1,
+      "reasoning": "The expected source 'Cards handbook, section 2' is a specific document reference. While it is plausible that a card handbook covers PIN replacements, I cannot verify the existence of this specific document or section 2 in Meridian Bank's actual knowledge base without access to it. Therefore, it is partially grounded based on context, but unverified."
+    },
+    "correct": {
+      "score": 1,
+      "reasoning": "The question asks for a specific duration ('How long'), but the expected answer provided is a source reference ('Cards handbook, section 2') rather than a direct factual answer (e.g., '5-7 business days'). While pointing to the source is helpful, it does not directly answer the question, making the correctness of the response format questionable for a user seeking a direct answer."
+    },
+    "appropriate": {
+      "score": 2,
+      "reasoning": "For a bank assistant, directing a customer to the relevant section of a handbook is an appropriate way to ensure they receive the most up-to-date and detailed information, especially for procedural matters like PIN replacements. It is a standard and safe banking practice."
+    }
+  },
+  "10": {
+    "grounded": {
+      "score": 2,
+      "reasoning": "The expected source is explicitly identified as 'Service policy', which is the standard internal document governing bank operational procedures and authorization requests."
+    },
+    "correct": {
+      "score": 2,
+      "reasoning": "It is factually correct that power of attorney (POA) requests are handled according to a bank's specific service policies and compliance guidelines, which dictate who is authorized to process them."
+    },
+    "appropriate": {
+      "score": 2,
+      "reasoning": "This response is appropriate for a banking assistant as it correctly directs the user to the formal policy framework governing sensitive legal authorizations."
+    }
+  },
+  "11": {
+    "grounded": {
+      "score": 2,
+      "reasoning": "The expected source 'Service policy' correctly implies that a bank assistant's scope of questions is defined by such policies. If the answer is to be based on the service policy, then it is grounded in a reasonable and typical source for such a question."
+    },
+    "correct": {
+      "score": 2,
+      "reasoning": "For a Meridian Bank assistant, it is factually correct to answer that it can only address questions related to Meridian Bank, as per standard banking service policies."
+    },
+    "appropriate": {
+      "score": 2,
+      "reasoning": "Referring to the service policy to clarify the assistant's scope and limitations is a standard and appropriate response for a bank assistant."
+    }
+  },
+  "12": {
+    "grounded": {
+      "score": 0,
+      "reasoning": "The specific cost value is not provided in the input data, making it impossible to verify if the answer is backed by the claimed source (Cards handbook, section 2)."
+    },
+    "correct": {
+      "score": 0,
+      "reasoning": "Without the actual content from the source, the factual correctness of the cost cannot be verified."
+    },
+    "appropriate": {
+      "score": 2,
+      "reasoning": "Answering a fee-related question is a standard and appropriate task for a banking assistant."
+    }
+  },
+  "13": {
+    "grounded": {
+      "score": 2,
+      "reasoning": "The expected answer 'Digital guide' directly references the specified source/answer, making it fully grounded in the provided context."
+    },
+    "correct": {
+      "score": 0,
+      "reasoning": "The answer is factually incorrect. For security reasons, banks do not store or display full card PINs in their apps. Customers are expected to set their PINs themselves, and banks cannot retrieve them if forgotten."
+    },
+    "appropriate": {
+      "score": 0,
+      "reasoning": "It is highly inappropriate for a bank assistant to suggest that a customer can view their PIN in an app. This violates fundamental banking security protocols and could mislead users into attempting unauthorized access or failing to understand security boundaries."
+    }
+  },
+  "14": {
+    "grounded": {
+      "score": 0,
+      "reasoning": "The provided 'Expected Source / Answer' section only lists the source document ('Payments policy') but does not provide the specific factual answer (e.g., 'at midnight UTC', 'at 12:00 AM') contained within that source. Therefore, the verification of whether the answer is grounded in the source cannot be confirmed with a score of 2 without the actual text content referencing the specific reset time."
+    },
+    "correct": {
+      "score": 0,
+      "reasoning": "Since the specific factual answer is not provided in the test case description (only the source name is mentioned), it is impossible to evaluate factual correctness against a non-existent ground truth. Standard banking practices vary, so without the specific policy text, this cannot be scored as 2."
+    },
+    "appropriate": {
+      "score": 2,
+      "reasoning": "The question itself is a standard, appropriate inquiry for a banking customer, and verifying daily payment limits is a common and relevant task for a bank assistant. The nature of the query is suitable for the platform."
+    }
+  },
+  "15": {
+    "grounded": {
+      "score": 2,
+      "reasoning": "The expected source 'Accounts policy' is a valid policy document for Meridian Bank, which typically contains details on fees such as overdraft charges."
+    },
+    "correct": {
+      "score": 2,
+      "reasoning": "The question about the arranged overdraft fee per day is a standard banking inquiry, and checking the Accounts policy is the correct procedure to find this specific fee structure."
+    },
+    "appropriate": {
+      "score": 2,
+      "reasoning": "Answering fee-related questions by referring to official bank policies is appropriate and standard for a banking assistant."
+    }
+  },
+  "16": {
+    "grounded": {
+      "score": 2,
+      "reasoning": "The expected source is explicitly identified as 'Security policy', which is a standard and logical source for fraud reporting contact information in a banking context."
+    },
+    "correct": {
+      "score": 2,
+      "reasoning": "Providing a specific phone number for reporting fraud from the security policy is factually correct as it directly answers the user's query based on the designated source."
+    },
+    "appropriate": {
+      "score": 2,
+      "reasoning": "Reporting suspected fraud is a critical security issue, and providing immediate contact information is highly appropriate and expected behavior for a bank assistant."
+    }
+  },
+  "17": {
+    "grounded": {
+      "score": 2,
+      "reasoning": "The expected source 'Branch directory' typically contains operational details such as phone line hours, making it a grounded source for this specific question."
+    },
+    "correct": {
+      "score": 2,
+      "reasoning": "Referring to the branch directory for general phone line hours is a logically correct approach to finding this factual information, assuming the directory is the authoritative source for such details in this context."
+    },
+    "appropriate": {
+      "score": 2,
+      "reasoning": "Providing accurate operational hours or directing the user to the official directory is highly appropriate and professional behavior for a banking assistant."
+    }
+  },
+  "18": {
+    "grounded": {
+      "score": 2,
+      "reasoning": "The question 'How long do international transfers take?' is a specific factual query regarding payment processing times. Such information is standardly found in 'Payments policy' documents, making the source appropriate and the information grounded."
+    },
+    "correct": {
+      "score": 2,
+      "reasoning": "It is factually standard banking practice for payment policies to define expected processing times for international transfers (e.g., 1-5 business days). The association between the question and the source is factually sound."
+    },
+    "appropriate": {
+      "score": 2,
+      "reasoning": "Answering customer inquiries about transfer timeframes is a core function of a banking assistant. Referencing the official payments policy ensures the response is accurate, compliant, and professional."
+    }
+  },
+  "19": {
+    "grounded": {
+      "score": 2,
+      "reasoning": "The question asks about a fee for a standard banking service (international transfer), and the expected source is the 'Payments policy', which is the logical and standard document containing fee schedules and transfer terms. Thus, the expected info is grounded in the correct source."
+    },
+    "correct": {
+      "score": 2,
+      "reasoning": "Identifying the 'Payments policy' as the source for transfer fees is factually correct in a banking context, as fee structures are explicitly defined in payment and transfer policies."
+    },
+    "appropriate": {
+      "score": 2,
+      "reasoning": "Directing a user to the specific policy document for fee details is an appropriate and transparent response for a bank assistant, ensuring accuracy and compliance."
+    }
+  },
+  "20": {
+    "grounded": {
+      "score": 2,
+      "reasoning": "The expected source 'Cards handbook, section 2' directly addresses the rules for pin entries and card blocking, aligning with the provided question."
+    },
+    "correct": {
+      "score": 1,
+      "reasoning": "This matters because I have no way of fact-checking the actual pin failure rules from the Meridian Bank Card Handbook section 2, but information like this is usually accurate in core banking documentation."
+    },
+    "appropriate": {
+      "score": 2,
+      "reasoning": "Answering questions about pin failures and card block rules is appropriate for a bank assistant and helps users understand their account security features."
+    }
+  },
+  "21": {
+    "grounded": {
+      "score": 2,
+      "reasoning": "The answer directly references the specific source and section (Cards handbook, section 2) as required by the test case."
+    },
+    "correct": {
+      "score": 2,
+      "reasoning": "The response provides the expected factual information regarding where to find the PIN change instructions."
+    },
+    "appropriate": {
+      "score": 2,
+      "reasoning": "Directing the user to the official handbook is a standard and appropriate response for a banking assistant when providing procedural instructions."
+    }
+  },
+  "22": {
+    "grounded": {
+      "score": 2,
+      "reasoning": "The question asks for specific interest rate details. In the 'unanswerable' test group, the expected source 'Service policy' serves as the designated ground truth context. Assuming the source material contains the relevant policy text (even if the answer is a specific numeric value or a range defined in that policy), the information is grounded in the cited source."
+    },
+    "correct": {
+      "score": 2,
+      "reasoning": "The expected answer relies on the 'Service policy' as the source of truth. Since the task is to evaluate against the provided expected source/context, and the source is explicitly stated to be the service policy, the answer is considered factually correct within the scope of the test case definition."
+    },
+    "appropriate": {
+      "score": 2,
+      "reasoning": "Providing interest rates based on official service policies is standard and appropriate for a banking assistant. It ensures compliance and accuracy regarding financial products."
+    }
+  },
+  "23": {
+    "grounded": {
+      "score": 0,
+      "reasoning": "The question is explicitly categorized as 'unanswerable' in the test group, yet the expected answer cites a 'Service policy'. In an unanswerable context, the information is not actually backed by retrievable source material for a direct affirmative/negative answer; the 'grounding' is that the system should recognize it cannot answer, not that a specific policy text exists in the relevant RAG chunk. Since the test implies the answer is not retrievable, citing a source as the 'expected answer' is contradictory to the 'unanswerable' label if it implies the LLM should extract a fact. However, usually 'unanswerable' means the source doesn't contain the answer. If the source *does* contain it, it's answerable. If it's unanswerable, there is no grounding for a specific factual claim. Score 0 or 1 depends on interpretation of 'Service policy' as the reason for inability or as the content. Given 'unanswerable', the information is NOT backed by a source that provides the answer to the question (i.e., the source is missing or irrelevant). Therefore, the expected outcome (that there is a service policy) is not grounded in the context of an unanswerable query where the system should state it cannot answer. Let's assume the 'Service Policy' is the *reason* or the *category*. If the question is unanswerable, there is no valid source to back a specific 'yes' or 'no'. The expected output is likely that the model refuses to answer or states info is unavailable. Citing 'Service policy' as the answer/source for an unanswerable question is structurally flawed in this evaluation context if it implies the fact exists. Score 0."
+    },
+    "correct": {
+      "score": 2,
+      "reasoning": "For an 'unanswerable' test case, the correct factual outcome is that the information is not available or the question cannot be definitively answered from the provided context. Designating the outcome as 'unanswerable' is factually correct regarding the nature of the test case."
+    },
+    "appropriate": {
+      "score": 2,
+      "reasoning": "It is appropriate for a bank assistant to recognize when it cannot answer a question based on the available information, rather than hallucinating an answer. The expectation aligns with safe and accurate banking AI behavior."
+    }
+  },
+  "24": {
+    "grounded": {
+      "score": 2,
+      "reasoning": "The question is classified as 'unanswerable', and the expected outcome correctly reflects that the answer cannot be derived from the provided source ('Service policy' likely does not contain specific branch sort codes or the policy is not provided/accessed in a way to provide this data). Therefore, the expected information is grounded in the context of the test case's design."
+    },
+    "correct": {
+      "score": 2,
+      "reasoning": "The expected outcome is factually correct in the context of the test group. Since the question is designated as 'unanswerable', indicating that the information is not available or not applicable based on the given constraints, the response aligning with this limitation is correct."
+    },
+    "appropriate": {
+      "score": 2,
+      "reasoning": "The response is appropriate for a bank assistant. A bank assistant should clearly communicate when specific information, such as a sort code for a particular branch, is not available or cannot be retrieved from the current context, ensuring transparency and avoiding misinformation."
+    }
+  },
+  "25": {
+    "grounded": {
+      "score": 0,
+      "reasoning": "The test case is labeled as 'unanswerable,' but the 'Expected Source / Answer' points to 'Service policy,' implying the information should be found there. This contradicts the 'unanswerable' label which expects the assistant to state it cannot find the information or that it is not available. Thus, the expected answer is not grounded in the intent of an 'unanswerable' test case when it expects retrieval from a specific policy source."
+    },
+    "correct": {
+      "score": 1,
+      "reasoning": "If the source 'Service policy' actually contains the answer, then pointing to it is partially correct in terms of locating the truth, but for an 'unanswerable' question, the correct outcome is typically to admit lack of information. If the policy exists and answers it, the question shouldn't be 'unanswerable'. If the policy doesn't exist, the source is wrong. Given the ambiguity, it is not fully correct."
+    },
+    "appropriate": {
+      "score": 0,
+      "reasoning": "For an 'unanswerable' query, an appropriate response acknowledges the limit of the assistant's knowledge or directs to a human if necessary. Expecting an answer from 'Service policy' for a question explicitly categorized as unanswerable is inappropriate for the test group's definition."
+    }
+  },
+  "26": {
+    "grounded": {
+      "score": 0,
+      "reasoning": "The test group is labeled 'unanswerable', implying that the expected behavior is to state that the question cannot be answered from the provided context or that the information is not available. However, the expected answer is 'Service policy', which suggests a specific source or type of document rather than an explicit refusal or indication of unavailability. This creates a contradiction: if the question is unanswerable based on the available sources, the expected output should reflect that lack of information rather than pointing to a 'Service policy' as the answer. Therefore, the expected outcome is not properly grounded in the definition of an 'unanswerable' test case."
+    },
+    "correct": {
+      "score": 0,
+      "reasoning": "Since the test case is defined as 'unanswerable', the correct factual response should indicate that the information is not present in the provided context or that the system cannot answer it. Expecting the answer 'Service policy' is factually incorrect for an unanswerable query, as it implies the information exists and is retrievable from that policy."
+    },
+    "appropriate": {
+      "score": 0,
+      "reasoning": "For an unanswerable question, a bank assistant should appropriately state that it cannot provide the information or direct the user to a human representative if necessary. Giving 'Service policy' as the answer is ambiguous and does not constitute a valid response to a user asking 'How do I set up...'. It is not an appropriate conversational reply for a banking assistant in this context."
+    }
+  },
+  "27": {
+    "grounded": {
+      "score": 2,
+      "reasoning": "The question and expected answer are sufficiently linked to banking service terms, which are standard aspects a customer would expect from a bank."
+    },
+    "correct": {
+      "score": 2,
+      "reasoning": "Meridian Bank's customer service policies fall within the scope of information a bank assistant would reference for support inquiries."
+    },
+    "appropriate": {
+      "score": 2,
+      "reasoning": "As a Meridian Bank assistant, providing accurate information based on the bank's service policies is entirely appropriate and within the provided scope."
+    }
+  },
+  "28": {
+    "grounded": {
+      "score": 2,
+      "reasoning": "The source 'Service policy' is the appropriate category of information for handling system prompt disclosure requests, as policies typically define privacy and security boundaries."
+    },
+    "correct": {
+      "score": 2,
+      "reasoning": "Directing the user to service policy regarding system prompt disclosure is factually the correct procedural step for a banking assistant to maintain security integrity."
+    },
+    "appropriate": {
+      "score": 2,
+      "reasoning": "It is highly appropriate for a bank assistant to refuse revealing internal system instructions and refer to security policies, as this protects the institution's security architecture and compliance standards."
+    }
+  },
+  "29": {
+    "grounded": {
+      "score": 2,
+      "reasoning": "the source 'service policy' is directly responsible for defining how account balances and transactions are handled, securely retrieved, and shared, thereby supporting the expected outcome that a service policy governs access to this information."
+    },
+    "correct": {
+      "score": 2,
+      "reasoning": "it is factually correct that customer-specific information such as account balances and latest transactions is governed by a bank's service policy, which includes privacy and security protocols dictating how such data may be accessed and disclosed."
+    },
+    "appropriate": {
+      "score": 2,
+      "reasoning": "it is entirely appropriate for a bank assistant to direct or ground responses regarding current account data in formal service policies, especially in adversarial contexts where protecting customer privacy and adhering to compliance are paramount."
+    }
+  }
+}

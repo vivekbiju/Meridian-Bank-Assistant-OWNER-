@@ -1,0 +1,5 @@
+{
+  "_comment": "Chosen approach: Gate on the aggregate. We evaluate aggregate mean performance across cases with built-in margins, avoiding multi-run token exhaustion while keeping the CI/CD pipeline robust against isolated judge variance.",
+  "min_overall_mean": 1.20,
+  "min_adversarial_mean": 1.80
+}
